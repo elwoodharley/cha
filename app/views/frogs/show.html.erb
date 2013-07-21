@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @frog.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @frog.description %>
+</p>
+
+<p>
+  <b>Quantity:</b>
+  <%= @frog.quantity %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @frog.price %>
+</p>
+
+
+<%= link_to 'Edit', edit_frog_path(@frog) %> |
+<%= link_to 'Back', frogs_path %>
